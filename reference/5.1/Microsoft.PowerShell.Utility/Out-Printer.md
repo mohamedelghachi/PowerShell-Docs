@@ -35,7 +35,7 @@ specified.
 This example shows how to print a file, even though `Out-Printer` does not have a **Path** parameter.
 
 ```powershell
-Get-Help ./readme.txt | Out-Printer
+Get-Content ./readme.txt | Out-Printer
 ```
 
 `Get-Content`gets the contents of the `readme.txt` file in the current directory and pipes it to
